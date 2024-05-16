@@ -11,6 +11,8 @@ graph LR;
     Detection_Output -->Insert_DB[Insert into SQLite DB];
 ```
 
+![](https://raw.githubusercontent.com/nickmccarty/automated-object-detection-using-pytorch/main/cam-locations.jpg)
+
 This workflow is quite linear and is effectively automated ETL in the sense that objects are being detected in NYC traffic cams every 15 minutes and the output is being stored in a database (`utc_timestamp`, `camera_location`, `detected_object`, `score`, and `bounding_box`); no other image data is retained or stored, as demonstrated in the Colab notebook provided below:
 
 <a href="https://colab.research.google.com/drive/1fDSe36ragCs_POrMreZwHT-02ufjm9sF?usp=sharing#offline=true&sandboxMode=true" style="text-decoration: none;" target="_blank">
