@@ -5,6 +5,7 @@ import requests
 import sqlite3
 from datetime import datetime  # Add this import statement
 import json
+import os
 
 # Define the cameras dictionary
 cameras = {
