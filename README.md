@@ -18,3 +18,5 @@ This workflow is quite linear and is effectively automated ETL in the sense that
 <a href="https://colab.research.google.com/drive/1fDSe36ragCs_POrMreZwHT-02ufjm9sF?usp=sharing#offline=true&sandboxMode=true" style="text-decoration: none;" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
+Note: I let this experiment run for a couple weeks and have since archived the project, meaning that I am no longer collecting and storing data here every 15 minutes.
