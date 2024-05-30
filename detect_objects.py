@@ -15,20 +15,6 @@ cameras = {
 }
 
 # # Initialize SQLite database connection
-# conn = sqlite3.connect('detections.db')
-# c = conn.cursor()
-
-# Check if the database file exists
-if not os.path.exists('detections.db'):
-    # Create a new database file
-    conn = sqlite3.connect('detections.db')
-    c = conn.cursor()
-    c.execute('''CREATE TABLE IF NOT EXISTS detections
-                 (utc_timestamp TEXT, camera_location TEXT, detected_object TEXT, score REAL, bounding_box TEXT)''')
-    conn.commit()
-    conn.close()
-
-# Connect to the database
 conn = sqlite3.connect('detections.db')
 c = conn.cursor()
 
